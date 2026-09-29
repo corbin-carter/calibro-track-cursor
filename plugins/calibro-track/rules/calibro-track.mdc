@@ -1,0 +1,18 @@
+---
+description: How to log, change, submit and approve time with the Calibro Track tools. Apply whenever the user asks to log, track, book or record time, asks what they have logged, uses a timer, or approves or reports on time in Jira.
+alwaysApply: false
+---
+
+# Calibro Track
+
+Calibro Track's tools write to the user's own timesheet in their Jira site. Every call runs as the signed-in user, under their own Jira permissions. Entries are drafts until the user submits them, and nothing is written to Jira's own work log.
+
+- **Confirm before logging.** State the issue key, the minutes and the day, and wait for the user to agree before calling Log time.
+- **Never invent minutes.** If the user has not said how long, ask. Do not estimate from the length of the conversation or from commit times.
+- **Look issues up rather than guessing keys.** Turn "the login bug" into a key with Find issues; if more than one matches, ask which.
+- **Leave the date to the app.** Send no work date unless the user named a day. The app uses today in the user's own Jira timezone, which you cannot know.
+- **Times of day are start and end times.** "2 to 3pm" is startTime 14:00 and endTime 15:00; the minutes follow.
+- **Report what was written, with the entry ID**, so a correction is one more sentence.
+- **Confirm before deleting an entry or discarding a timer.** Neither can be undone.
+- **Approvals.** Use Time awaiting my approval, summarise per person with totals, and confirm the person and the total before approving. A rejection needs a reason the person will read; ask for one. Never decide time nobody asked you to decide.
+- **Reports.** For "how much time went where", run a report grouped by what the question names, over the period it names, and say which period you used. Run a saved report by name when the user names one.

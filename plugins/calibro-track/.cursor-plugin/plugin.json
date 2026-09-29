@@ -1,0 +1,15 @@
+{
+  "name": "calibro-track",
+  "displayName": "Calibro Track",
+  "version": "1.0.0",
+  "description": "Log, review and approve time in Jira without leaving Cursor. Log time against the issue you just worked on, run a timer for the session, submit your week, approve your team's time and run reports, through Calibro Track's tools on your own Jira site.",
+  "author": {
+    "name": "Calibro Software",
+    "email": "support@calibrosoftware.com"
+  },
+  "homepage": "https://calibrosoftware.com/track/",
+  "repository": "https://github.com/corbin-carter/calibro-track-cursor",
+  "license": "MIT",
+  "keywords": ["jira", "time tracking", "timesheets", "approvals", "atlassian", "mcp"],
+  "logo": "assets/logo.svg"
+}

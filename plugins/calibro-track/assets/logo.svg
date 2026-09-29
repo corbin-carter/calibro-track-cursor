@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-label="Calibro Track">
+  <!--
+    The caliper: beam, fixed jaw, sliding jaw crossing the beam, both tips
+    turned inward. Deliberately not a clock or a stopwatch dial — nine of the
+    fifteen top time-tracking apps on the Marketplace use one, and a tile that
+    looks like its neighbours is a tile nobody picks out of a list.
+
+    Self-contained on purpose. An earlier icon used stroke="currentColor",
+    which resolves to nothing when Jira loads the file as an image rather than
+    inlining it, and the tile rendered broken in the sidebar. Every colour here
+    is explicit, and the stroke is heavy enough to survive being drawn at 16px.
+
+    Radius is ~22% of the tile; the mark occupies ~60% of it.
+  -->
+  <rect width="32" height="32" rx="7" fill="#14171A"/>
+
+  <g fill="none" stroke="#35C4B0" stroke-width="3.2" stroke-linecap="round">
+    <path d="M6.4 14.2 H25.6"/>
+    <path d="M9.6 14.2 V22.6 H11.8"/>
+    <path d="M19.2 10.2 V22.6 H17"/>
+  </g>
+</svg>

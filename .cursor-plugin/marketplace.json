@@ -1,0 +1,18 @@
+{
+  "name": "calibro-software",
+  "owner": {
+    "name": "Calibro Software",
+    "email": "support@calibrosoftware.com"
+  },
+  "metadata": {
+    "description": "Calibro Software's plugins for Cursor",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "calibro-track",
+      "source": "./plugins/calibro-track",
+      "description": "Log, review and approve time in Jira from Cursor with Calibro Track"
+    }
+  ]
+}
